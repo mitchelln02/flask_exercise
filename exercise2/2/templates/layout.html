@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="eng">
+
+<head>
+    {% block head %}
+    <title>{% block title %}{% endblock %} - My Webpage</title>
+    {% endblock %}
+</head>
+
+<body style="background-color: aqua;font-weight: bold;">
+    <div id="content">{% block content %}{% endblock %}</div>
+</body>
+
+</html>

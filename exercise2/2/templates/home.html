@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+  <h1>Home</h1>
+  <h2>Enter integer or anything to check for integers/odds/evens</h2>
+  <form action="/calculate">
+    <input type="text" id="number" name="number"><br>
+    <input type="submit" value="Submit">
+  </form> 
+{% endblock %}
