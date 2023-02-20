@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block title %}
+{% endblock %}
+{% block content %}
+<table>
+    <tr>
+        <th>Name:</th>
+        <th>Organizations:</th>
+    </tr>
+    {% for name in list %}
+        <tr>
+            <td>{{name}}</td>
+        </tr>
+    {% endfor %}
+    {% for org in list %}
+        <tr>
+            <td>{{org}}</td>
+        </tr>
+    {% endfor %}
+</table>
+{% endblock %}

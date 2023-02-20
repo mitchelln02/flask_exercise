@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block title %}
+{% endblock %}
+{% block content %}
+<form method="post">
+    <label for="name">Name:</label>
+    <input type="name" id="name" name="name" placeholder="John doe">
+    <label for="org">Organizations</label>
+    <select name="org" id="Organizations">
+        <option value="org1">org1</option>
+        <option value="org2">org2</option>
+        <option value="org3">org3</option>
+        <option value="org4">org4</option>
+        <option value="org5">org5</option>
+    </select>
+{% endblock %}
